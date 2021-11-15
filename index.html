@@ -4,10 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://unpkg.com/scrollreveal"></script>
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="style.css">
-
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Devender website</title>
     </head>
@@ -188,9 +186,8 @@
         </footer>
 
 
-    <script>
-        
-        /*===== MENU SHOW =====*/ 
+<script>
+    /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -217,7 +214,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-===== SCROLL REVEAL ANIMATION =====
+/*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
@@ -248,7 +245,7 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
-    </script>    
+</script>    
 
 
     </body>
